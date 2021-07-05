@@ -21,3 +21,11 @@
         background-color: $primary-color;
     }
 }
+
+@media (max-width: 767px)
+{
+    .iru-tiny-player 
+    {
+        width: 100%;
+    }
+}
