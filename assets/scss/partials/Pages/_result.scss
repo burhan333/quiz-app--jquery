@@ -1,0 +1,55 @@
+.result
+{
+    &_table
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    &_button
+    {
+        background: transparent;
+        border: none;
+        padding: 0;
+        color: $primary-color;
+
+        .far
+        {
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+    }
+
+    &_button:disabled
+    {
+        color: gray;
+    }
+
+    &_all
+    {
+        margin-right: 5px;
+        cursor: pointer;
+    }
+
+    th
+    {
+        color: $primary-color;
+    }
+
+    tr
+    {
+        border-bottom: 1px solid $gray-light;
+    }
+
+    td
+    {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        color: $gray-dark;
+
+        a
+        {
+            color: $gray-dark;
+        }
+    }
+}

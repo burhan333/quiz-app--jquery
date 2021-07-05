@@ -1,0 +1,23 @@
+// BASE 
+@import './partials/base/config';
+@import './partials/base/typography';
+
+// COMPONENTS
+@import './partials/components/general';
+@import './partials/components/buttons';
+@import './partials/components/result-single';
+@import './partials/Components/modals';
+
+// LAYOUT
+@import './partials/layout/header';
+@import './partials/layout/question';
+
+// PAGES
+@import './partials/pages/audio-based-question';
+@import './partials/pages/create-question';
+@import './partials/pages/home';
+@import './partials/pages/mcqs';
+@import './partials/pages/plans';
+@import './partials/pages/question-answers';
+@import './partials/Pages/result';
+@import './partials/pages/sign-in';

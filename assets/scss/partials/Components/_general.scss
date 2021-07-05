@@ -1,0 +1,21 @@
+.active-option
+{
+    background-color: #f3f3f3;
+}
+
+.create-question_label-active
+{
+    background-color: $primary-color !important;
+}
+
+.active-btn
+{
+    border-color: $primary-color !important;
+    color: $primary-color;
+}
+
+.active-result-field
+{
+    color: $primary-color;
+    font-weight: 600;
+}

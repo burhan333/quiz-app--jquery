@@ -1,0 +1,23 @@
+.arrows
+{
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    
+    button
+    {
+        border: none;
+        background: no-repeat;
+        outline: none;
+    }
+
+    button:not(:disabled) > .fas
+    {
+        color: $primary-color;
+    }
+
+    button .fas
+    {
+        font-size: 2em;
+    }
+}

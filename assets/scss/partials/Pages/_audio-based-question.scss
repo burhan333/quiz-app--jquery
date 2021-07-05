@@ -1,0 +1,23 @@
+.iru-tiny-player 
+{
+    width: 50%;
+    margin-top: 35px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 2px solid $primary-color;
+
+    .icon:hover
+    {
+        color: $primary-color;
+    }
+
+    .fa-pause
+    {
+        color: $primary-color;
+    }
+
+    .song-volume-dot:hover
+    {
+        background-color: $primary-color;
+    }
+}

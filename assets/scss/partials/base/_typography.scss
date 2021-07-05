@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+@font-face
+{
+    font-family: 'Bubble';
+    src: url('../fonts/BubbleBobble-rg3rx.ttf')    
+}
+
+$gradient-dark: linear-gradient(90deg, rgba(119,82,175,1)0% , rgba(162,96,193,1)  100%);
+$gradient-dark-inverse: linear-gradient(90deg, rgba(162,96,193,1) 0% , rgba(119,82,175,1) 100%);
+$gradient-light: linear-gradient(90deg,rgba(199,182,218,1) 0%, rgba(161,151,201,1) 100%);
+$gradient-light-inverse: linear-gradient(90deg,rgba(161,151,201,1) 0%, rgba(199,182,218,1) 100%);
+
+$primary-color: #7752AF;
+$secondary-color: #A260C1;
+
+$primary-color-light: #AAA0CD;
+$secondary-color-light: #efe2ff;
+
+$light-blue: #00c5e5;
+$gray-light: #ececec;
+$gray-medium: #d1d1d1;
+$gray-dark: #8e8e8e;
