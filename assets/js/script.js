@@ -230,7 +230,7 @@ const urlShortAnswer = document.getElementsByClassName('home_option-short-answer
 if(urlShortAnswer.length > 0)
 {
     urlShortAnswer[0].addEventListener('click', function(){
-        window.open('./question-answers.html', '_blank');
+        window.open('./short-question.html', '_blank');
     })
 }
 
